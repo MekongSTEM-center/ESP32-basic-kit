@@ -42,12 +42,11 @@ Gói sản phẩm bao gồm đầy đủ các module cảm biến, linh kiện n
 
 ## 🛠️ 3. HƯỚNG DẪN SỬ DỤNG TRANG GITHUB NÀY
 
-Để người học dễ dàng tra cứu và thực hành mà không bị rối, toàn bộ các bài học trong kho lưu trữ này được chia thành các **Thư mục dự án riêng biệt** (được đánh số thứ tự từ `01_` đến `05_`... bên trên). 
+Để người học tra cứu và thực hành, toàn bộ các bài học trong kho lưu trữ này được chia thành các **Thư mục dự án** 
+Khi bạn bấm truy cập vào bất kỳ một thư mục dự án nào, cấu trúc bên trong gồm **3 phần** sau:
 
-Khi bạn bấm truy cập vào bất kỳ một thư mục dự án nào, cấu trúc bên trong luôn đảm bảo có đầy đủ **3 phần cốt lõi** sau:
+### 📑 Phần 1: Hướng dẫn lý thuyết & Nhiệm vụ 
 
-### 📑 Phần 1: Hướng dẫn lý thuyết & Nhiệm vụ (`README.md` con)
-File này sẽ giải thích rõ ràng:
 * Mục tiêu của bài học (Ví dụ: Đọc cảm biến ánh sáng, khi tối thì bật đèn).
 * Nguyên lý hoạt động của linh kiện mới xuất hiện trong bài.
 * Giải thích chi tiết các câu lệnh MicroPython quan trọng được sử dụng.
@@ -68,11 +67,14 @@ File này sẽ giải thích rõ ràng:
 
 | Thứ tự | Tên Bài Học / Dự Án | Nội Dung Thực Hành | Đường Dẫn Hệ Thống |
 | :---: | :--- | :--- | :--- |
-| **01** | Nháy LED Onboard (Blink) | Làm quen Thonny IDE, cấu hình chân Output cơ bản. | [Truy cập bài 1](./01_Blink_LED) |
-| **02** | Đọc cảm biến Analog (ADC) | Thu thập dữ liệu từ quang trở, xử lý điều kiện `if/else`. | [Truy cập bài 2](./02_Read_Sensor_ADC) |
-| **03** | Điều khiển Relay an toàn | Ứng dụng đóng cắt thiết bị tự động dựa trên cảm biến. | [Truy cập bài 3](./03_Control_Relay) |
-| **04** | Hiển thị màn hình LCD I2C | Xuất dữ liệu chữ và số lên màn hình trực quan. | [Truy cập bài 4](./04_LCD_I2C) |
-| **05** | Kết nối không dây ESP-NOW | Giao tiếp không dây tốc độ cao giữa 2 mạch ESP32. | [Truy cập bài 5](./05_ESP_NOW_Basic) |
+| **01** | Nháy LED đơn & LED RGB | Board ESP32, LED đơn, LED RGB, Điện trở 220R | [Truy cập bài 1](./01_Blink_LED) |
+| **02** | Điều khiển còi và Nút nhấn | Nút nhấn 12x12, Buzzer hoạt động/thụ động | [Truy cập bài 2](./02_Button_Buzzer) |
+| **03** | Đọc cảm biến Analog (ADC) | Module quang trở, Biến trở 10K | [Truy cập bài 3](./03_Analog_ADC) |
+| **04** | Làm chủ màn hình OLED | Màn hình OLED 0.96 inch (giao tiếp I2C) | [Truy cập bài 4](./04_OLED_Display) |
+| **05** | Giám sát môi trường với DHT11 | Module DHT11, Màn hình OLED | [Truy cập bài 5](./05_DHT11_Environment) |
+| **06** | Hệ thống cảnh báo an ninh chống trộm | Cảm biến chuyển động PIR, Cảm biến LM393, Buzzer | [Truy cập bài 6](./06_Security_Alarm) |
+| **07** | Đóng ngắt thiết bị qua Relay 2 kênh | Module Relay 2 kênh 5V, ESP32 | [Truy cập bài 7](./07_Relay_Control) |
+| **08** | Kết nối không dây ESP-NOW cơ bản | 2 x Board ESP32 (Giao tiếp không dây độc lập) | [Truy cập bài 8](./08_ESP_NOW_Base) |
 
 ---
 *💡 Trong quá trình thực hành, nếu phát hiện lỗi code mẫu hoặc thư viện bị xung đột, xin vui lòng tạo một **GitHub Issue** để đội ngũ kỹ thuật của Mekong STEM kịp thời cập nhật và hỗ trợ.*

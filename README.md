@@ -23,7 +23,7 @@ Gói sản phẩm bao gồm đầy đủ các module cảm biến, linh kiện n
     * 1 x Module cảm biến nhiệt độ và độ ẩm DHT11
     * 1 x Module cảm biến ánh sáng (Quang trở)
     * 1 x Module cảm biến chuyển động PIR HC-SR501
-    * 1 x Module cảm biến tránh chướng ngại vật LM393
+    * 1 x Module cảm biến vật cản LM393
     * 1 x Biến trở xoay 10K
     * 6 x Nút nhấn giữ/nhả (Kích thước 12x12)
 * **Khối cơ cấu chấp hành & Cảnh báo (Outputs):**

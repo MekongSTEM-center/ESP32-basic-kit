@@ -1,12 +1,12 @@
 # ⚡ KHO TÀI LIỆU KIT HỌC TẬP ESP32 BASIC KIT ⚡
 
-Chào mừng bạn đã sở hữu bộ **ESP32 Basic Kit** từ **Mekong STEM**. Đây là kho tài nguyên mở, lưu trữ toàn bộ tài liệu hướng dẫn, sơ đồ mạch và mã nguồn mẫu sử dụng ngôn ngữ **MicroPython** giúp bạn dễ dàng làm chủ công nghệ IoT và lập trình nhúng.
+Đây là kho tài nguyên mở, lưu trữ toàn bộ tài liệu hướng dẫn, sơ đồ mạch và mã nguồn mẫu sử dụng ngôn ngữ **MicroPython** cho bộ **ESP32 Basic Kit** từ **Mekong STEM** giúp bạn dễ dàng làm chủ công nghệ IoT và lập trình nhúng.
 
 ---
 
 ## 📌 1. GIỚI THIỆU BỘ KIT
 
-**ESP32 Basic Kit** là bộ kit học tập lập trình phần cứng và IoT được Mekong STEM thiết kế tối ưu cho học sinh, sinh viên và người mới bắt đầu. Trung tâm của bộ kit là vi điều khiển **ESP32-WROOM-32** mạnh mẽ, tích hợp sẵn Wi-Fi và Bluetooth. 
+**ESP32 Basic Kit** là bộ kit học tập lập trình phần cứng và IoT từ Mekong STEM được thiết kế tối ưu cho học sinh, sinh viên và người mới bắt đầu. Trung tâm của bộ kit là vi điều khiển **ESP32-WROOM-32** mạnh mẽ, tích hợp sẵn Wi-Fi và Bluetooth. 
 
 Bộ kit này loại bỏ các rào cản phức tạp về hàn mạch, giúp người học tập trung hoàn toàn vào việc phát triển tư duy thuật toán, hiểu nguyên lý hoạt động của các linh kiện điện tử và tự tay xây dựng các ứng dụng tự động hóa thông minh trong đời sống.
 
@@ -14,20 +14,30 @@ Bộ kit này loại bỏ các rào cản phức tạp về hàn mạch, giúp n
 
 ## 📦 2. CÁC THÀNH PHẦN CƠ BẢN CỦA BỘ KIT
 
-Bộ kit bao gồm các linh kiện điện tử và cảm biến thông dụng được chuẩn hóa để thực hành chuỗi bài học từ cơ bản đến nâng cao:
+Gói sản phẩm bao gồm đầy đủ các module cảm biến, linh kiện ngoại vi và phụ kiện kết nối sau:
 
-* **Khối xử lý trung tâm:** Board mạch ESP32 NodeMCU (Phiên bản 38 chân) kèm cáp nạp dữ liệu Micro-USB.
-* **Khối hiển thị:** Màn hình LCD 16x2 tích hợp mạch chuyển đổi giao tiếp I2C (giúp tiết kiệm chân cắm).
-* **Khối cảm biến (Sensors):**
-    * Cảm biến nhiệt độ & độ ẩm không khí (DHT11 / DHT20).
-    * Cảm biến ánh sáng (Quang trở - LDR).
-    * Cảm biến vật cản hồng ngoại hoặc cảm biến chuyển động.
-* **Khối cơ cấu chấp hành (Outputs):**
-    * Hệ thống đèn LED nhiều màu (Đỏ, Vàng, Xanh) phục vụ mô phỏng đèn giao thông.
-    * Còi chip (Buzzer) phát âm thanh cảnh báo.
-    * Mạch Relay 5V cách ly an toàn dùng để đóng/ngắt các thiết bị điện lớn (như quạt, máy bơm nhỏ).
-* **Phụ kiện kết nối:** Breadboard (Testboard cắm mạch), dây cắm testboard (Dây đực - đực, đực - cái, cái - cái).
-
+* **Khối xử lý & Hiển thị trung tâm:**
+    * 1 x Board vi điều khiển ESP32
+    * 1 x Màn hình hiển thị OLED 0.96 inch (Giao tiếp I2C trực quan)
+* **Khối cảm biến & Dữ liệu đầu vào (Inputs):**
+    * 1 x Module cảm biến nhiệt độ và độ ẩm DHT11
+    * 1 x Module cảm biến ánh sáng (Quang trở)
+    * 1 x Module cảm biến chuyển động PIR HC-SR501
+    * 1 x Module cảm biến tránh chướng ngại vật LM393
+    * 1 x Biến trở xoay 10K
+    * 6 x Nút nhấn giữ/nhả (Kích thước 12x12)
+* **Khối cơ cấu chấp hành & Cảnh báo (Outputs):**
+    * 1 x Module Relay 2 kênh 5V (Hỗ trợ đóng cắt độc lập 2 thiết bị điện)
+    * 1 x Buzzer thụ động (Phát âm thanh/nốt nhạc)
+    * 1 x Buzzer hoạt động (Phát tiếng bíp cảnh báo cố định)
+    * 15 x Đèn LED đơn (5 Đỏ, 5 Vàng, 5 Xanh lục) phục vụ dự án đèn giao thông
+    * 1 x Đèn LED RGB (Lập trình phối màu sắc bất kỳ)
+* **Khối phụ kiện kết nối & Lưu trữ:**
+    * 1 x Breadboard MB102 (Bo cắm mạch cỡ lớn)
+    * 1 x Cáp truyền dữ liệu (Cáp nạp code Micro-USB)
+    * 30 x Dây cắm testboard (10 Đực - Cái, 10 Cái - Cái, 10 Đực - Đực)
+    * 30 x Điện trở vạch chống cháy LED (10 cái 220R, 10 cái 1K, 10 cái 10K)
+    * 1 x Hộp nhựa đựng toàn bộ Module gọn gàng
 ---
 
 ## 🛠️ 3. HƯỚNG DẪN SỬ DỤNG TRANG GITHUB NÀY

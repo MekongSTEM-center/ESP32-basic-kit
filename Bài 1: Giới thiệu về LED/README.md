@@ -57,11 +57,15 @@ Khi một chân GPIO cấu hình làm cổng vào (`Pin.IN`) để đọc nút n
 
 *Lưu ý:* ESP32 tích hợp sẵn các điện trở kéo này bên trong chip, cho phép kích hoạt bằng lập trình mà không cần cắm thêm điện trở 10kΩ bên ngoài.
 
-Tiếp theo, ta sẽ kết hợp giữa mạch điện và lập trình tạo ra một dự án đơn giản: Blynk LED. Sơ đồ kết nối như sau: 
-* D15 (ESP32) -> điện trở 220 ohm
-* Chân còn lại của điện trở -> Anode LED (+)
-* Cathode LED (-) -> GND 
-<img width="740" height="457" alt="image" src="https://github.com/user-attachments/assets/25cdb14a-85b4-44fa-aa33-6230ded3d2dc" />
+Tiếp theo, ta sẽ kết hợp giữa mạch điện và lập trình tạo ra một dự án đơn giản, kết hợp giữa Digital Input và Digital Output.
+
+Bước 1: Chuẩn bị linh kiện
+* ESP32
+* LED
+* Điện trở 220 ohm
+* Nút nhấn
+Bước 2: Sơ đồ kết nối
+
 
 ---
 

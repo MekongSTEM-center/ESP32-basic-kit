@@ -56,8 +56,8 @@ Khi bạn bấm truy cập vào bất kỳ một thư mục dự án nào, cấu
 * Sơ đồ được vẽ ở dạng **hình ảnh thực tế** giúp học sinh nhìn rõ từng màu dây, từng chân cắm (GPIO nào nối với chân nào của cảm biến) để thao tác theo một cách chính xác nhất, tránh nguy cơ cắm ngược chân gây hỏng mạch.
 
 ### 💻 Phần 3: Mã nguồn lập trình mẫu (`main.py`)
-* File code mẫu MicroPython hoàn chỉnh, đã được test chạy ổn định 100%.
-* Trong code được **chú thích bằng tiếng Việt** rõ ràng ở từng dòng lệnh quan trọng, giúp người học hiểu rõ bản chất của thuật toán chứ không chỉ copy-paste một cách thụ động.
+* File code mẫu MicroPython hoàn chỉnh.
+* Trong code được **chú thích bằng tiếng Việt** rõ ràng ở các dòng lệnh quan trọng, giúp người học hiểu rõ bản chất của thuật toán.
 
 ---
 

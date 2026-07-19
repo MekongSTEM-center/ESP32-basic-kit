@@ -64,10 +64,10 @@ Bước 1: Chuẩn bị linh kiện
 * LED
 * Điện trở 220 ohm
 * Nút nhấn
+  
 Bước 2: Sơ đồ kết nối
 
+<img width="716" height="510" alt="image" src="https://github.com/user-attachments/assets/42249bb2-5372-45ff-8eb7-22541e47a278" />
 
----
-
-## 💻 4. Lập Trình 
+Bước 3: Lập Trình 
 - Phần lập trình sẽ được trình bày chi tiết trong file 'main.py'

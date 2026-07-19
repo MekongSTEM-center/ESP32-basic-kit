@@ -1,4 +1,4 @@
-# 📘 Bài 3: ESP32 Analog Inputs
+# 📘 Bài 2: ESP32 Analog Inputs
 
 Dự án này hướng dẫn cách đọc tín hiệu đầu vào Analog với ESP32 sử dụng MicroPython. Việc đọc giá trị Analog rất hữu ích để lấy dữ liệu từ các biến trở hoặc các cảm biến analog.
 

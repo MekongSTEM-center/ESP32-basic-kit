@@ -1,4 +1,4 @@
-# 📘 Bài 2: Khảo Sát Mạch Điện Cơ Bản Và Lập Trình GPIO
+# 📘 Bài 1: Khảo Sát Mạch Điện Cơ Bản Và Lập Trình GPIO
 
 Hướng dẫn từng bước từ việc nhận biết linh kiện phần cứng, lắp ráp mạch điện độc lập, đến việc hiểu về cơ chế điện trở kéo (Pull-up/Pull-down) để kiểm soát chân GPIO trên ESP32.
 

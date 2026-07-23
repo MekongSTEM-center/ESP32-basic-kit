@@ -1,4 +1,4 @@
-# 📘 Project 5: ESP32 RGB LED
+Bài 4: ESP32 RGB LED
 
 Dự án này hướng dẫn cách điều khiển đèn LED RGB bằng vi điều khiển ESP32 sử dụng MicroPython. Thông qua việc phát các tín hiệu PWM với chu kỳ nhiệm vụ (Duty Cycle) khác nhau đến 3 chân màu Đỏ (Red), Xanh lá (Green), Xanh dương (Blue), chúng ta có thể phối hợp và tạo ra hàng triệu màu sắc sống động.
 

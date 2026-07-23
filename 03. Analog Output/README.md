@@ -93,3 +93,4 @@ Các điểm trọng tâm xử lý trong mã nguồn:
    * Xoay trục biến trở về phía 0V: Đèn LED mờ dần cho đến khi tắt hoàn toàn.
    * Xoay trục biến trở về phía 3.3V: Đèn LED tăng dần độ sáng cho đến khi đạt mức tối đa.
    * Màn hình Shell hiển thị đồng thời giá trị ADC thô và giá trị PWM Duty Cycle tương ứng.
+4. Lưu ý: Do GPIO 5 là chân strapping, nên trong quá trình nạp code, tín hiệu tại chân này sẽ được đưa lên mức HIGH, khi quan sát sẽ thấy LED sáng lên. Đây là hiện tượng bình thường, sau khi nạp code xong, chân đó có thể dùng bình thường. 
